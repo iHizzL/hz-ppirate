@@ -1,6 +1,6 @@
 # hz-ppirate: FiveM Package Spawn Script
 
-"hz-ppirate" is a dynamic package spawning system for your FiveM server using QBCore. Packages spawn at predefined locations and contain random items based on configured probabilities.
+"hz-ppirate" is a dynamic package spawning system for your FiveM server using QBCore. The script is inspired by the concept of porch pirates stealing packages, hence the name (shortened from hz-porchpirates to hz-ppirate). Packages spawn at predefined locations and contain random items based on configured probabilities, simulating the thrill and unpredictability of package theft.
 
 ## Features
 
@@ -45,7 +45,10 @@
        description = 'A mysterious box. Who knows what\'s inside?'
    },
    ```
-7. Add an image for the mystery box item (name it `mystery_box.png`) to your inventory resource's images folder.
+7. Add the `mystery_box.png` image to your qb-inventory's images folder. The path should be:
+   ```
+   [path_to_resources]/qb-inventory/html/images/mystery_box.png
+   ```
 8. Start your server and enjoy the new package spawning system!
 
 ## Configuration
