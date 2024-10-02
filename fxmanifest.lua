@@ -6,11 +6,11 @@ author 'HizzL'
 description 'A dynamic package spawning system inspired by porch pirates. Spawn mysterious packages across the map for players to find, pick up, and open for random loot.'
 
 client_scripts {
-    'client.lua'
+    'client/main.lua'
 }
 
 server_scripts {
-    'server.lua'
+    'server/main.lua'
 }
 
 shared_scripts {
